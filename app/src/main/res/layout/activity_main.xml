@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/food_list"
+        android:layout_width="wrap_content"
+        android:width="164dp"
+        android:height="46dp"
+        android:viewportWidth="164"
+        android:viewportHeight="46"
+        android:layout_height="wrap_content"
+        android:text="Phones"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle_1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add phone"
+        android:textAllCaps="false"
+        android:width="164dp"
+        android:height="46dp"
+        android:viewportWidth="164"
+        android:viewportHeight="46"
+        android:textSize="12sp"
+        android:elevation="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangle_1"/>
+
+
+</LinearLayout>
